@@ -2,4 +2,6 @@ let a = 56;
 let b = 65;
 
 let c = a+b;
-console.log(c);
+// console.log(c);
+
+var score = 90;
