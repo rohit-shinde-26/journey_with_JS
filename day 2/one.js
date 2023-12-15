@@ -1,39 +1,36 @@
-console.log("Hello World");
-
-// hello its me here 
-
-/*  multiline comment */
-
-// variable 
-var ram = 67;
-var ram = 45; //redeclared
-ram = 9; //update
-
-
-let sita = 56;
- sita = 67;
-
-
-// console.log(sita);
-// console.log(ram); 
+let a = 90;
+// let a = 89;   // not redclared
+a = 67;  // update
+// console.log(a);
 
 
 
-// Ex
+const pi = 3.14;
+// const pi = 788; it is not redeclared or updatable
 
-// var score = 56;
-// {
-//     var score = 78;
-//     console.log(score);
-// }
-//  console.log(score); // global scope
+// global scope 
 
-
-// ex
-
-let score = 89;
+var x = 90;
+// console.log(x);
 {
-    let score = 45;
-    console.log(score);
+    var x = 67;
+    // console.log(x);
 }
-console.log(score); // blocked scope
+// console.log(x);
+
+
+// blocked scope
+let b = 78;
+{
+    let b = 67;
+    // console.log(b);
+}
+// console.log(b);
+
+
+let m = 90;
+let n = 89;
+
+// m += n;
+
+console.log(m);
